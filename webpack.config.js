@@ -5,6 +5,7 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  watch: true,
   module: {
     loaders: [
       {
