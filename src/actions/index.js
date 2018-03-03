@@ -1,4 +1,1 @@
-export const selectBook = book => ({
-  type: 'BOOK_SELECTED',
-  payload: book
-});
+const API_KEY = 'e7819a0645bb3723fbfe223ad074c870';
