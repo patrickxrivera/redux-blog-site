@@ -1,1 +1,1 @@
-# Redux Weather App
+# Redux Blog Site

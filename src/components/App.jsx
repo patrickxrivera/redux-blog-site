@@ -1,13 +1,14 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import SearchBar from '../containers/SearchBar.jsx';
-import WeatherList from '../containers/WeatherList.jsx';
+import PostsIndex from '../components/PostsIndex.jsx';
 
-const App = () => (
-  <div>
-    <SearchBar />
-    <WeatherList />
-  </div>
+export default () => (
+  <Router>
+    <div>
+      <Switch>
+        <Route exact path="/" component={PostsIndex} />
+      </Switch>
+    </div>
+  </Router>
 );
-
-export default App;
